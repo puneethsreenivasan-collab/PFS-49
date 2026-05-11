@@ -1,146 +1,155 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .main {
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-
-
+  height: 100vh;
+  width: 100%;
+  background-color: black;
 }
 
 /* NAVBAR start */
 .main-nav {
-    height: 80px;
-    width: 100%;
-    background-color: #fff;
-    display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
 }
 
 .nav-logo {
-    flex: 0.2;
-    /* width: 20%; */
-    height: 100%;
-    background-color: rgb(255, 142, 4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 0.2;
+  /* width: 20%; */
+  height: 100%;
+  /* background-color: rgb(255, 142, 4); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-menu {
-    flex: 1;
-    /* width: 60%; */
-    height: 100%;
-    background-color: #eeeef4;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+  flex: 1;
+  /* width: 60%; */
+  height: 100%;
+  background-color: #eeeef4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /*  space is a decendent selector */
 
 /* > is a child selector */
 
-
-.nav-menu>a {
-    color: #000;
-    text-decoration: none;
+.nav-menu > a {
+  color: #000;
+  text-decoration: none;
 }
-
 
 .nav-btn {
-    flex: 0.3;
-    /* width: 20%; */
-    height: 100%;
-    background-color: rgb(8, 255, 4);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  flex: 0.3;
+  /* width: 20%; */
+  height: 100%;
+  /* background-color: rgb(8, 255, 4); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.nav-btn>button{
-    padding: 10px 20px ;
+.nav-btn > button {
+  padding: 10px 20px;
 }
-
 
 /* NAVBAR end */
-
-
 
 /* start of p1 */
 
 .main-p1 {
-    height: 300px;
-    width: 100%;
-    background-color: #c71616;
-    display: flex;
+  height: 300px;
+  width: 100%;
+  /* background-color: #c71616; */
+  display: flex;
 }
 
 .p1-b1 {
-    flex: 1;
-    height: 100%;
-    background-color: yellow;
+  flex: 1;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: column;
+  margin: 5px 30px 5px 50px;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  color: white;
+
+  /* font-style: italic; */
+  /* font-family: "Noto Sans Meroitic", sans-serif; */
+  /* font-family: "Bitcount Grid Double", system-ui; */
+   
+  /* font-weight: 900; */
+
+
+  /* font-size: 20px; */
+  
+
 }
 
 .p1-b2 {
-    flex: 1;
-    height: 100%;
-    background-color: pink;
-    background-image: url(../image.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    
+  flex: 1;
+  height: 100%;
+  background-color: pink;
+  background-image: url(../image.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /* end of p1 */
 
 /* start of p2 */
 .main-p2 {
-    height: 300px;
-    width: 100%;
-    background-color: #1616c7;
-    display: flex;
+  height: 300px;
+  width: 100%;
+  background-color: #1616c7;
+  display: flex;
 }
 
 .p2-b1 {
-    flex: 1;
-    height: 100%;
-    background-color: rgb(23, 23, 22);
+  flex: 1;
+  height: 100%;
+  background-color: rgb(23, 23, 22);
 }
 
 .p2-b2 {
-    flex: 1;
-    height: 100%;
-    background-color: rgb(242, 6, 45);
+  flex: 1;
+  height: 100%;
+  background-color: rgb(242, 6, 45);
 }
 
 /* end of p2 */
 
-
 .main-p3 {
-    height: 300px;
-    width: 100%;
-    background-color: #c7bb16;
+  height: 300px;
+  width: 100%;
+  background-color: #c7bb16;
 }
 
 .main-p4 {
-    height: 300px;
-    width: 100%;
-    background-color: #31c716;
+  height: 300px;
+  width: 100%;
+  background-color: #31c716;
 }
 
 .main-p5 {
-    height: 300px;
-    width: 100%;
-    background-color: #ef14e8;
+  height: 300px;
+  width: 100%;
+  background-color: #ef14e8;
 }
 
 .main-footer {
-    height: 80px;
-    width: 100%;
-    background-color: #4d4a4c;
+  height: 80px;
+  width: 100%;
+  background-color: #4d4a4c;
 }
